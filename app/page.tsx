@@ -2,10 +2,7 @@
 import Head from 'next/head';
 import Navbar from '@/components/Navbar';
 import Hero from '@/components/Hero';
-import About from '@/Components/Sections.tsx/AboutUs';
-import Different from '@/components/sections.tsx/Different';
-import ContactSection from '@/Components/Sections.tsx/ContactSection';
-import Footer from '@/components/Footer';
+import AboutUs from '@/Components/Sections.tsx/AboutUs';
 
 export default function Page() {
   return (
@@ -18,10 +15,7 @@ export default function Page() {
       <main className="scroll-smooth">
         <Navbar />
         <Hero />
-        <About />
-        <Different />
-        <ContactSection />
-        <Footer />
+        <AboutUs />
       </main>
     </>
   );
