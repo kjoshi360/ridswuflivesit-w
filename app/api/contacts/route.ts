@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server';
-import { transporter, sanitize } from '@/lib/email';
+import { transporter } from '@/lib/email';
+import {  sanitize } from '@/lib/utils';
 
 export async function POST(request: NextRequest) {
   try {
