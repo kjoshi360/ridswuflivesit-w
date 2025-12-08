@@ -29,7 +29,6 @@ export default function Navbar() {
 
   return (
     <nav className="fixed top-0 w-full bg-black/95 backdrop-blur-sm border-b border-gray-800 shadow-2xl z-50">
-      {/* existing nav content */}
-    </nav>
+     Green Cars    </nav>
   );
 }

@@ -15,18 +15,18 @@ export default function Hero() {
               <svg className="w-5 h-5 text-green-500" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                 <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2z" />
               </svg>
-              <p className="text-xs font-light uppercase tracking-widest text-green-400">Central India's Premier EV Service</p>
+              <p className="text-xs font-light uppercase tracking-widest text-green-400">Central India's Fastest-Growing  EV cab Network</p>
             </div>
 
             <h1 className="text-6xl md:text-7xl font-black mb-8 leading-none tracking-tight">
               Ride Green,<br /><span className="text-green-500">Ride Clean</span>
             </h1>
             <p className="text-lg mb-10 text-gray-400 font-light leading-relaxed max-w-xl">
-              Experience the future of transportation with our 100% electric cab fleet. Sustainable, comfortable, and reliable rides across Central India.
+           Switch to a smarter way of travel. 100% electric, zero-emission rides that are comfortable, reliable, and designed for a cleaner tomorrow.
             </p>
-            <button className="bg-green-600 text-black px-10 py-4 rounded-full text-base font-bold hover:bg-green-500 contact-button uppercase tracking-wide shadow-2xl shadow-green-600/50 relative z-30">
+            {/*<button className="bg-green-600 text-black px-10 py-4 rounded-full text-base font-bold hover:bg-green-500 contact-button uppercase tracking-wide shadow-2xl shadow-green-600/50 relative z-30">
               Book Your EV Cab
-            </button>
+            </button>*/}
 
             
           </div>

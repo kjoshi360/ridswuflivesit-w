@@ -1,18 +1,21 @@
 "use client";
 
-import Navbar from '@/Components/Navbar';
+
 import Hero from '@/Components/Hero';
-import About from '@/Components/Sections/AboutUs';
+import AboutUs from '@/Components/Sections/AboutUs';
 import Different from '@/Components/Sections/Different';
+import WhyUs from '@/Components/Sections/Whyus';   
 import ContactSection from '@/Components/Sections/ContactSection';
 import Footer from '@/Components/Footer';
+import Navbar from './Navbar';
 
 export default function HomePage() {
   return (
     <main className="scroll-smooth">
-      <Navbar />
+     
       <Hero />
-      <About />
+      <AboutUs />
+      <WhyUs />
       <Different />
       <ContactSection />
       <Footer />
