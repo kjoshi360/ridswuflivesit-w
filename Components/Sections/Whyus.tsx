@@ -7,7 +7,7 @@ export default function WhyUs() {
           <p className="text-gray-500 font-light uppercase tracking-widest text-sm">Leading the green revolution in transportation</p>
         </div>
 
-        <div className="grid md:grid-cols-3 gap-8">
+        <div className="grid md:grid-cols-3 gap-8 justify-center">
           <div className="bg-gradient-to-br from-gray-900 to-black p-10 rounded-none border border-gray-800 hover:border-green-600 card-hover transition-all duration-300">
             <div className="w-16 h-16 bg-green-600/10 rounded-full flex items-center justify-center mb-8 border border-green-600/30">
               <svg className="w-8 h-8 text-green-500" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
