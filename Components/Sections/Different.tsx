@@ -48,5 +48,6 @@ export default function Different() {
         </div>
       </div>
     </section>
+    
   );
 }
