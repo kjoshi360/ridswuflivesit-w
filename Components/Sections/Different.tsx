@@ -12,7 +12,7 @@ export default function Different() {
 
         {/* Content justified ypdated */}
         <div className="flex justify-center">
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 justify-center">
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 justify-center">
             
             <div className="bg-gradient-to-br from-gray-900 to-black p-8 border border-gray-800 hover:border-green-600 transition-all duration-300 text-center">
               <svg className="w-14 h-14 text-green-500 mb-6 mx-auto" fill="currentColor" viewBox="0 0 24 24">
