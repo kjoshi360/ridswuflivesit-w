@@ -10,7 +10,7 @@ export default function Different() {
           </p>
         </div>
 
-        {/* Content */}
+        {/* Content justified ypdated */}
         <div className="flex justify-center">
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 justify-center">
             
@@ -48,6 +48,6 @@ export default function Different() {
         </div>
       </div>
     </section>
-    
+
   );
 }
